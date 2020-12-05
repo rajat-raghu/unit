@@ -1,2 +1,2 @@
 # unit
-[![Actions Status](https://github.com/RobDWaller/csp-generator/workflows/Python%20application/badge.svg)](https://github.com/rajat-raghu/unit/actions)
+[![Actions Status](https://github.com/rajat-raghu/unit/workflows/Python%20application/badge.svg)](https://github.com/rajat-raghu/unit/actions)
