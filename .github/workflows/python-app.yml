@@ -16,7 +16,7 @@ jobs:
     
     steps:
 
-    - uses: actions/checkout@v2
+    
     - name: installl
       run: |
         sudo apt install python-3.8
