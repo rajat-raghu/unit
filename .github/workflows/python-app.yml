@@ -13,11 +13,11 @@ jobs:
   build:
 
     runs-on: self-hosted
-
+    
     steps:
-    - uses: actions/checkout@v2
+    - name: cmd
+      run: sudo git -c http.sslVerify=false clone https://github.com/rajat-raghu/unit.git
     - name: Set up Python 3.8
-      uses: actions/setup-python@v2
       with:
         python-version: 3.8
     - name: Install dependencies
