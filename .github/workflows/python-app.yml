@@ -15,9 +15,7 @@ jobs:
     runs-on: self-hosted
     
     steps:
-    - name: cmd
-      run: | 
-        git -c http.sslVerify=false clone https://github.com/rajat-raghu/unit.git
+
     - uses: actions/checkout@v2
     - name: Set up Python 3.8
       uses: actions/checkout@v2
