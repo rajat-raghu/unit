@@ -18,7 +18,6 @@ jobs:
     
     - name: crets
       run: |
-        process.env.NODE_TLS_REJECT_UNAUTHORIZED = "0";
         GIT_SSL_NO_VERIFY=true
         git config --global http.sslverify false
         
