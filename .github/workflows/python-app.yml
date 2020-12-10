@@ -17,7 +17,7 @@ jobs:
     steps:
     - name: cmd
       run: sudo git -c http.sslVerify=false clone https://github.com/rajat-raghu/unit.git
-    
+    - uses: actions/checkout@v2
     - name: Set up Python 3.8
       with:
         python-version: 3.8
@@ -38,4 +38,4 @@ jobs:
     - name: test
       run: |
         python unittest1.py
-    - uses: actions/checkout@v2
+    
