@@ -18,6 +18,7 @@ jobs:
     
     - name: crets
       run: |
+        GIT_SSL_NO_VERIFY=true
         git config --global http.sslverify false
     - uses: actions/checkout@v2
     - name: Set up Python 3.8
