@@ -19,7 +19,7 @@ jobs:
     
     - name: installl
       run: |
-        sudo apt install python-3.8
+        sudo apt install python3.8
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
