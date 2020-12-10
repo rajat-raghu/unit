@@ -22,8 +22,8 @@ jobs:
         sudo apt install -y python3.8 python3-pip
     - name: Install dependencies
       run: |
-        python -m pip3 install --upgrade pip
-        pip3 install flake8 pytest
+        sudo python3.8 -m pip3 install --upgrade pip
+        sudo pip3 install flake8 pytest
         if [ -f requirements.txt ]; then pip install -r requirements.txt; fi
     - name: Lint with flake8
       run: |
