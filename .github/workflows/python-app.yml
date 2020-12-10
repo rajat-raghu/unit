@@ -20,11 +20,7 @@ jobs:
       run: |
         GIT_SSL_NO_VERIFY=true
         git config --global http.sslverify false
-        
-    - name: Set up Python 3.8
-      uses: actions/setup-python@v2
-      with:
-        python-version: 3.8
+        apt-get install python3.8
     - name: Install dependencies
       run: |
         apt-get update & 
