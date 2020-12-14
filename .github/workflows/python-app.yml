@@ -12,7 +12,7 @@ jobs:
     steps:
     - name: explort
       run: |
-        explort SSL_CERT_DIR=/etc/ssl/certs/
+        export SSL_CERT_DIR=/etc/ssl/certs/
 
     - uses: actions/checkout@v2
     - name: Set up Python 3.8
