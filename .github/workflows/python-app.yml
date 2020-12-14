@@ -14,6 +14,7 @@ jobs:
       run: |
         export SSL_CERT_DIR=/etc/ssl/certs/
         export NODE_EXTRA_CA_CERTS=/etc/ssl/certs/SecurityAppliance_SSL_CA.pem
+        git clone https://github.com/rajat-raghu/unit.git
     - uses: actions/checkout@v2
     - name: Set up Python 3.8
       uses: actions/setup-python@v2
